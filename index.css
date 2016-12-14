@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(70,70,70);
+}
+
+header {
+  position: absolute;
+  overflow:hidden;
+  width : 100%;
+  height: 600px;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+
+/*  background: url('http://1.bp.blogspot.com/-PsK25iXARa0/VmyHgjkZkuI/AAAAAAAAWl4/bpepP3SfUKE/s1600/150323-29_5282.jpg') no-repeat center center fixed, rgba(250,250,250,0.3);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-blend-mode: soft-light, soft-light;
+  -webkit-background-blend-mode: soft-light, soft-light;*/
+}
+#background {
+  position: absolute;
+  overflow:hidden;
+  width : 100%;
+  height: 600px;
+  top: 0;
+  left: 0;
+}
+
+#background img {
+ width :100%;
+}
+
+nav  ul {
+  height: 60px;
+  background-color: rgba(250,250,250, 0.7);
+  display: flex;
+  flex: row;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+#logo {
+  background-image: url('http://static2.seety.pagesjaunes.fr/asset_site_67e671c9-19d4-4a4a-8e36-4045b4e4a807/544e465a-b326-4f29-b25a-1411dd675334_page_logo');
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+}
